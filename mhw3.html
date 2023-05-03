@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>mhw3</title>
+    <link rel="stylesheet" href="mhw3.css">
+    <script src="mhw3.js" defer></script>
+  </head>
+
+  <body>
+    <h1>MHW3</h1>
+    <div id="question"><strong>Cosa vuoi cercare?</strong></div>
+        <article>
+            <div class="box" id="movie_box">
+                <strong>Film</strong>
+                <div></div>
+            </div>
+            <div class="box" id="spotify_box">
+                <strong>Album su Spotify</strong>
+                <div></div>
+            </div>
+            <form id="movie_form" class="hidden">
+                Inserisci il nome del film:
+                <input type="text" id="movie_text">
+                <input type="submit" value="Cerca">
+            </form>
+            <form id="spotify_form" class="hidden">
+                Inserisci il nome dell'album:
+                <input type="text" id="album_text">
+                <input type="submit" value="Cerca">
+            </form>
+            <button id="movie_reset" class="hidden">Cerca un album su Spotify</button>
+            <button id="spotify_reset" class="hidden">Cerca un film</button>
+            <div id="movie"></div>
+        </article>
+
+    <section id="page-view">
+    </section>
+  </body>
+
+</html>
